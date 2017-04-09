@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html >
+  <head>
+    <meta charset="UTF-8">
+    <title>Log in Page</title>
+            <link rel="stylesheet" href="css/loginstyle.css">
+  </head>
+  <body>
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+	<script type='text/javascript' src="js/login.js"></script>
+	<div id="logmsk" style="display: block;">
+    <div id='close'>X</div>
+    <div id="userbox">
+        <h1 id="signup">Login</h1>
+        <div id="sumsk" style="display: none;">Sending</div>
+		
+        <input id="name" class ="name" placeholder="User ID" style="opacity: 1; background-color: rgb(255, 255, 255); background-position: initial initial; background-repeat: initial initial;">
+		
+        <input id="pass"  class ="name" type="Password" placeholder="Password" style="opacity: 1; background-color: rgb(255, 255, 255); background-position: initial initial; background-repeat: initial initial;">        
+		
+      <!--<p id="logint" style="opacity: 1;">Sign up as a new user</p> -->
+		<a href="signup.html" id="logint" style="opacity: 1">Sign up as a new user</a>
+        <p id="nameal" style="display: none; opacity: 1;">ID:</p>
+        <p id="passal" style="display: none; opacity: 1;">Password:</p>
+        <button id="signupb" style="opacity: 0.2; cursor: default;">Login</button>
+    </div>
+</div>   
+  </body>
+</html>

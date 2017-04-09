@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html >
+  <head>
+    <meta charset="UTF-8">
+    <title>Sign Up Page</title>
+            <link rel="stylesheet" href="css/loginstyle.css">
+  </head>
+  <body>
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+	<script type='text/javascript' src="js/signup.js"></script>
+	<div id="logmsk" style="display: block;">
+    <div id='close'>X</div>
+    <div id="userbox">
+        <h1 id="signup">Sign up</h1>
+        <div id="sumsk" style="display: none;">Sending</div>
+		
+        <input id="name" class ="name" placeholder="User ID" style="opacity: 1; background-color: rgb(255, 255, 255); background-position: initial initial; background-repeat: initial initial;">
+		
+        <input id="pass"  class ="name" type="Password" placeholder="Password" style="opacity: 1; background-color: rgb(255, 255, 255); background-position: initial initial; background-repeat: initial initial;">
+		
+		<input id="fname" class ="name" placeholder="First Name" style="opacity: 1; background-color: rgb(255, 255, 255); background-position: initial initial; background-repeat: initial initial;">
+		
+        <input id="lname" class ="name" placeholder="Last Name" style="opacity: 1; background-color: rgb(255, 255, 255); background-position: initial initial; background-repeat: initial initial;">
+		
+		<input id="pnum" class ="name" placeholder="Phone Number" style="opacity: 1; background-color: rgb(255, 255, 255); background-position: initial initial; background-repeat: initial initial;">
+		
+        <!--<p id="logint" style="opacity: 1">Login as an existing user</p> -->
+		<a href="login.html" id="logint" style="opacity: 1">Login as an existing user</a>
+        <p id="nameal" style="display: none; opacity: 1;">User ID:</p>
+        <p id="passal" style="display: none; opacity: 1;">Password:</p>
+		<p id="fnameal" style="display: none; opacity: 1;">First Name:</p>
+		<p id="lnameal" style="display: none; opacity: 1;">Last Name:</p>
+		<p id="pnumal" style="display: none; opacity: 1;">Phone Number:</p>
+        <button id="signupb" style="opacity: 0.2; cursor: default;">Sign up</button>
+    </div>
+</div>
+</body>
+</html>
